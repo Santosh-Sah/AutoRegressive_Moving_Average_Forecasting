@@ -28,11 +28,11 @@ def testAutoRegressiveMovingAverageForecastingMetrics():
     
     rootMeanSquaredError = np.sqrt(mean_squared_error(X_test, predictedValues))
     
-    print(meanSquredError) #1143.4649378653387
+    print(meanSquredError) #59.91368652225238
     
-    print(meanAbsoluteError) #30.24228895401259
+    print(meanAbsoluteError) #5.892390823362883
     
-    print(rootMeanSquaredError) #33.815158403670665
+    print(rootMeanSquaredError) #7.74039317620574
     
     
     
